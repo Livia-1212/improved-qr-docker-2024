@@ -10,12 +10,14 @@ the target website. You must make your program generate a QR code that takes som
 
 ## Submission Requirements:
 
-1. See the QR code image that links to my own GitHub homepage :\
+1. See the QR code image that links to my own GitHub homepage :
 
-![alt text](http://url/to/qr_codes/QRCode_20241105212245.png)
+![image to my qr code](QRCode_20241105212245.png)
 
 2.  Add an image of viewing the log of successfully creating the QR code below.
  PUT YOUR LOG IMAGE HERE
+
+ 
 ## Lesson Video
 
 1.  [Scaling and Backend Software Engineering](https://youtu.be/v3LxCmYQVS4)
