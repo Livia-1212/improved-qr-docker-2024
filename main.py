@@ -75,7 +75,7 @@ def generate_qr_code(data, path, fill_color='red', back_color='white'):
 def main():
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Generate a QR code.')
-    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/kaw393939')
+    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/Livia-1212/improved-qr-docker-2024.git')
     args = parser.parse_args()
 
     # Initial logging setup
