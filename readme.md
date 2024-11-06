@@ -154,6 +154,6 @@ Displays the logs from a running or stopped container.
 
 These commands cover the essentials of building, running, and managing Docker containers and images, along with specific examples for your QR code generation application.
 
-![This image is a screenshot on Docker Container]()
+![This image is a screenshot on Docker Container](https://github.com/Livia-1212/improved-qr-docker-2024/blob/main/qr_codes/Screenshot%20container.png)
 
 
