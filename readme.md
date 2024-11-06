@@ -40,7 +40,7 @@ the target website. You must make your program generate a QR code that takes som
 ```sh
 docker build -t my-qr-app .
 ```
-This command builds a Docker image named `my-qr-app` from the Dockerfile in the current directory (`.`).
+This command builds a Docker image named `my-qr-app` (Mine Docker image is 'myqrcode') from the Dockerfile in the current directory (`.`).
 
 ### Running the Container with Default Settings
 ```sh
@@ -153,3 +153,7 @@ docker logs container_name
 Displays the logs from a running or stopped container.
 
 These commands cover the essentials of building, running, and managing Docker containers and images, along with specific examples for your QR code generation application.
+
+![This image is a screenshot on Docker Container]()
+
+
