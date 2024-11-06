@@ -16,9 +16,9 @@ the target website. You must make your program generate a QR code that takes som
 
 2.  Add an image of viewing the log of successfully creating the QR code below.
 
-![logginginfo](log screenshot.png)
+![logginginfo](qr_codes/Successfully creating the QR code logging info.png)
 
-![qr_code_generator.log](qr_codes/Successfully creating the QR code logging info.png)
+![qr_code_generator.log](qr_codes/log screenshot.png)
 
 
 ## Lesson Video
