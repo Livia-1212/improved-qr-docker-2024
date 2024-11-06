@@ -54,9 +54,9 @@ These commands cover the essentials of building, running, and managing Docker co
 ### Building the Image
 
 ```sh
-docker build -t my-qr-app .
+docker build -t myqrcode .
 ```
-This command builds a Docker image named `my-qr-app` (Mine Docker image is 'myqrcode') from the Dockerfile in the current directory (`.`).
+This command builds a Docker image named `my-qr-app` (Mine Docker image is `myqrcode`) from the Dockerfile in the current directory (`.`).
 
 ### Running the Container with Default Settings
 ```sh
