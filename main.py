@@ -17,13 +17,29 @@ FILL_COLOR = os.getenv('FILL_COLOR', 'red')  # Fill color for the QR code
 BACK_COLOR = os.getenv('BACK_COLOR', 'white')  # Background color for the QR code
 
 def setup_logging():
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.StreamHandler(sys.stdout),
-        ]
-    )
+    # Create a logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    # Create a console handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(logging.INFO)
+
+    # Create a file handler
+    file_handler = logging.FileHandler('qr_code_generator.log')
+    file_handler.setLevel(logging.DEBUG)  # Change this to whatever level you want for the file
+
+    # Create a formatter and set it for both handlers
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(formatter)
+    file_handler.setFormatter(formatter)
+
+    # Add both handlers to the logger
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+
+    logging.info("Logging configured successfully.")
+
 
 def create_directory(path: Path):
     try:
