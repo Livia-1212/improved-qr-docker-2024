@@ -12,11 +12,11 @@ the target website. You must make your program generate a QR code that takes som
 
 1. See the QR code image that links to my own GitHub homepage :
 
-![my qr code](qr_codes/QRCode_20241105212245.png)
+![my qr code](qr_codes/QRCode_20241106021446.png)
 
 2.  Add an image of viewing the log of successfully creating the QR code below.
 
-![qr_code_generator.log](https://github.com/Livia-1212/improved-qr-docker-2024/blob/main/qr_codes/log%20screenshot.png)
+![qr_code_generator.log](qr_codes/qr_code_generatorlog.png)
 
 **Viewing Logs of a Container**
 
@@ -27,7 +27,7 @@ Displays the logs from a running or stopped container.
 
 These commands cover the essentials of building, running, and managing Docker containers and images, along with specific examples for your QR code generation application.
 
-![This image is a screenshot on Docker Container]()
+![This image is a screenshot on Docker Container](qr_codes/container%20for%20image1446.png)
 
 
 
